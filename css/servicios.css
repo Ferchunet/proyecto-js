@@ -1,0 +1,33 @@
+.row{
+    background-color: rgb(91, 231, 56);
+}
+.row img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.col-12 {
+    width: 100%;
+    background-color: rgb(102, 224, 91);
+padding: 10px;
+}
+h1{
+    color: rgb(62, 235, 99);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.mb-4{
+    display: flex;
+}
+
+.conteiner{
+    width: 100%;
+}
+.shoppingCartItem{
+    display: flex;
+    background-color: rgb(162, 245, 141);
+    
+}
+body {
+    font-size: 30px;
+}

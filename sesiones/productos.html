@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>productos</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet"> 
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	
+    <!-- CSS only -->   
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+<!--css personazados-->
+<link rel="stylesheet" href="../style.css"> 
+<link rel="stylesheet" href="../css/acordion.css">
+<link rel="stylesheet" href="../css/servicios.css">
+<link rel="stylesheet" href="../css/footer.css">
+<!--js-->
+  
+    
+  </head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+             
+                <img class="navbar-brand" src="../imagen/Photo_1657295814769.png" alt="">
+                 <h1>MyY KIDS </h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="../index.html">menu</a>
+                  <a class="nav-link" href="../sesiones/ofertas.html">ofertas
+                  </a>
+                
+                </div>
+              </div>
+            </div>
+          
+              
+            </div>
+          </nav>
+          
+    </header>
+    <section class="andarin">
+      <div class="container">
+          <div class="items">
+              <div class="row">
+
+                  <div class="col-12 col-md-6">
+                      <div class="item shadow mb-4">
+                          <h3 class="item-title">andarin de nene</h3>
+                          <img class="item-image" src="./andarinnene.jpeg">
+
+                          <div class="item-details">
+                              <h4 class="item-price">$9500</h4>
+                              <button class="item-button btn btn-primary addToCart" id="andarinNene">AÑADIR AL CARRITO</button>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-12 col-md-6">
+                      <div class="item shadow mb-4">
+                          <h3 class="item-title">andarin nena</h3>
+
+                          <img class="item-image" src="./andarijnnena.jpeg">
+
+                          <div class="item-details">
+                              <h4 class="item-price">$9500</h4>
+                              <button class="item-button btn btn-primary addToCart" id="andarinNena">AÑADIR AL CARRITO</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="row">
+                  <div class="col-12 col-md-6">
+                      <div class="item shadow mb-4">
+                          <h3 class="item-title">pelela nene</h3>
+
+                          <img class="item-image" src="./pelelanene.jpg">
+
+                          <div class="item-details">
+                          
+                              <h4 class="item-price">$2500</h4>
+                              <button class="item-button btn btn-primary addToCart" id="pelelaNene">AÑADIR AL CARRITO</button>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-12 col-md-6">
+                      <div class="item shadow mb-4">
+                          <h3 class="item-title">pelela nena</h3>
+
+                          <img class="item-image" src="./pelelanena.jpg">
+
+                          <div class="item-details">
+                              <h4 class="item-price">$2700</h4>
+                                                                                                             
+                             
+                              <button class="item-button btn btn-primary addToCart" id="pelelaNena">AÑADIR AL CARRITO</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+             
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+ 
+  <section class="shopping-cart">
+            <div class="container">
+                <h1 class="text-center">CARRITO</h1>
+                <hr>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="shopping-cart-header">
+                            <h6>Producto</h6>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="shopping-cart-header">
+                            <h6 class="text-truncate">Precio</h6>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="shopping-cart-header">
+                            <h6>Cantidad</h6>
+                        </div>
+                    </div>
+          </div>
+   
+          <div class="shopping-cart-items shoppingCartItemsContainer">
+          </div>
+   
+          <div class="row">
+              <div class="col-12">
+                  <div class="shopping-cart-total d-flex align-items-center">
+                      <p class="mb-0">Total</p>
+                      <p class="ml-4 mb-0 shoppingCartTotal">0€</p>
+                      <div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true"
+                          data-delay="2000">
+                          <div class="toast-header">
+                              <span>✅</span>
+                              <strong class="mr-auto ml-1 text-secondary">Elemento en el carrito</strong>
+                              <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                              </button>
+                          </div>
+                          <div class="toast-body text-white">
+                              Se aumentó correctamente la cantidad
+                          </div>
+                      </div>
+                      <button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal"
+                          data-target="#comprarModal">Comprar</button>
+                  </div>
+              </div>
+          </div>
+
+         
+          <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="comprarModalLabel">Gracias por su compra</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      <div class="modal-body">
+                          <p>Pronto recibirá su pedido</p>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+
+
+      </div>
+
+  </section>
+
+
+<footer>
+    <div id="footers">
+        <div class="footer1">
+     <h5>¿de donde somos?</h5>
+     <p> garin,buenos aires,hacemos entregas a domicilio</p> 
+     <button><a href="http://www.facebook.com">comunicate</a></button> </div>
+      <div class="footer2">
+      <h4>medios de pago</h4>
+     
+     <img src="../imagen/metodo de pago.png" alt="">
+     
+        </div>
+        <div class="footer3">
+         <h3>productos</h3>
+         <ol>
+           <li>pelelas</li>
+           <li>autitos</li>
+           <li>andarines</li>
+           <button><link rel="import" href="/sesiones/productos.html">quiero</button>
+         </ol>
+        </div>
+         </div>
+       <h6>productos de calidad</h6>
+       <h3>desarrollado por fernanda coronel</h3>
+</footer>
+
+
+
+
+<script src="../js/body.js"></script>
+     <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="../sweetarlert2.js"></script>
+</body>
+</html>

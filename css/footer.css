@@ -1,0 +1,93 @@
+footer{
+    background-color: rgb(1, 216, 83);
+    padding: auto;
+    margin-top: auto;
+}
+.footer1 {
+    position: relative;
+    top:-25px;
+    height: 20%;
+}
+.footer1 h5{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 30px;
+}
+.footer2 {
+   
+    position: relative;
+    bottom: 100px;
+}
+.footer2 img {
+    object-fit: cover;
+    width: 100%;
+}
+.footer2 h4 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer3 ol {
+    position: relative;
+    bottom: 70px;
+    list-style: none;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer3{
+  position: relative;
+  top: 80px;
+
+
+}
+.footer2 {
+    position: relative;
+    top: 0px;
+}
+.footer3 h3 {
+    position: relative;
+    bottom: 80px;
+ left: 10px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   cursor: crosshair;
+   text-overflow: initial;
+
+
+}
+.footer1 button {
+    background-color: rgb(139, 243, 243);
+    border-radius: 16px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    position: relative;
+  
+    cursor: progress;
+}
+
+.footer3 button {
+    background-color: rgb(139, 243, 243);
+    border-radius: 16px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    position: relative;
+    right: 20px;
+    cursor: progress;
+}
+
+#footers {
+    width: 100%;
+    display: flex;
+}
+footer h6 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+footer h3 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: lowercase;
+    
+    text-shadow: 3px 3px violet;
+}

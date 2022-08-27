@@ -1,0 +1,46 @@
+body{
+    font-size: 30px;
+}
+figure {
+    background-color: aqua;
+    width: 30%;
+    height: 10%;
+    border-radius: 10%;
+    border: 10px rgb(113, 250, 255) solid;
+    margin: 20px;
+    
+    }
+    figcaption {
+        position: relative;
+        right: 2%;
+        text-shadow: 30px;
+        font-weight: 20px;
+    }
+    
+    .nena {
+        width: 100%;
+        height: 30%;
+    }
+    .nene{
+        width: 100%;
+        height: 20%;
+    }
+    .figu {
+        width: 100%;
+        display: flex;
+        height: 20%;
+    }
+    h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+          text-overflow: inherit;
+          padding: auto;
+          margin: 10px 20px;
+    }
+
+
+    form{
+        background-color: aquamarine;
+        width: 30%;
+        border: 2px aqua dotted;
+    }
